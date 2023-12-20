@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Sunge Smokehouse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo1.png" alt="This is a logo" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="#section-Gallery">Gallery</a></li>
+                <li><a href="#section-AboutUs">About</a></li>
+                <li><a href="#section-ContactUs">Contact</a></li>
+                
+            </ul>
+            
+        </div>
+        <div class="content">
+            <h1>SUNGE SMOKEHOUSE <br>& GRILL</h1>
+            <p>"WE ONLY SMOKE THE GOOD STUFF" <br>ESTABLISHED 2022</p>
+            <div>
+                <button type="button"><span></span>ORDER NOW</button>
+                <button type="button"><span></span>OUR SAUCES</button>
+            </div>
+        </div>
+    </div>
+    <hr color="yellow">
+    <br>
+    
+    <h2 id="section-Gallery">GALLERY</h2> <!--links back to top-->
+    <!--Image Carousel-->
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2" src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary green planet in space" />
+                <img id="slide-3" src="https://images.unsplash.com/photo-1656077217715-bdaeb06bd01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary blue planet in space" />
+                
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+
+    <hr color="yellow">
+    <br>
+
+    <!-------------------------------------------------->
+    <div class="section-AboutUs">
+        <h2 id="section-AboutUs"class="title">ABOUT US</h2>
+        <div class="content-imgAboutUs">
+            <div class="image">
+                <img src="Image4.jpg" alt="AN IMAGE">
+            </div>
+            <div class="content-AboutUs">
+                <p>Discover the story behind Sunge Smokehouse and Grill, where passion and family tradition converge to create a unique culinary experience. Our journey began with a vision to establish a restaurant that would not only showcase exquisite flavors but also pave the way for our parents' early retirement.
+                    
+                    Sunge Smokehouse and Grill is the brainchild of five siblings—Abdul Quddoos Sunge, Rozmeen Sunge, Faizaan Sunge, Hawabibi Sunge, and Kabir Sunge. Rooted in a rich familial heritage, we proudly carry the legacy of the renowned Indian restaurant "Food Inn," known for its presence in Town and Claremont.
+                    
+                    Embark on a gastronomic journey with us as we blend tradition, innovation, and a commitment to excellence at Sunge Smokehouse and Grill.</p>
+                <a href="" class="readmore">Read More</a>
+            </div>
+        </div>   
+    </div>    
+    
+    <!------------------------------------------>
+    <hr color="yellow">
+    <br>
+
+    <h2 id="section-ContactUs">CONTACT US</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+
+            <!-- Contact Form -->
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="question">Your Question:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+
+                <button1 type="submit">Submit</button1>
+            </form>
+
+            <!-- Phone Number (outside the form) -->
+            <p class="phone-number"><span class="icon">&#9990;</span> +1 (123) 456-7890</p>
+        </div>
+
+        <div class="map">
+            <!-- Replace the following iframe with the embed code from your map provider (e.g., Google Maps) -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-71.208805!3d46.813878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjrCsDI2JzEwLjkiTiA3McKwMjUnMjAuMyJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#">JUMP TO TOP</a>
+</body>
+</html>
+
+
+
+<!---
+<h3>Mission</h3>
+    <p>We continue to experiment with various food varieties till this day. We run the business at home, but we want to expand it by opening our own restaurant and gain provincial recognition. We believe that by combining our ambition with our father's knowledge of the food industry, we will be able to accomplish this goal very quickly. </p>
+    <hr>-->
+    
+	
+	---------------------------------------------------------------------------------------
+
+
+
+
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(44, 52, 52, 0.75),rgba(44, 42, 42, 0.75)),url("stars.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+     position: relative;
+}
+
+/*below is changing the color of the top navigation bar*/
+.navbar ul li a{ 
+    text-decoration: none;
+    color:#ffe100;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#ffe100;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+
+}
+
+.content p{
+    margin: 20 px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: #ffe100;
+}
+
+
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 247, 0);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background:#ffe100;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+
+}
+
+
+
+
+/*GALLERY*/
+h2{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;   
+}
+
+
+body {
+	background-color: #f8fafc;
+    background-image: linear-gradient(rgba(44, 52, 52, 0.75),rgba(44, 42, 42, 0.75)),url("stars.jpg");
+}
+
+.container {
+	padding: 2rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+
+/********About Us*********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section-AboutUs h2{
+    font-size: 50px;
+    position: center;
+    padding: 10px;
+}
+
+.content-AboutUs p{
+    color: #f8fafc;
+}
+
+
+.section-AboutUs {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 70px; 
+}
+
+
+.content-imgAboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image{
+    flex: 1;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+
+.content-AboutUs{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.content-AboutUs p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.readmore{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.readmore:hover{
+    background-color: #ccbb25;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    
+
+    .section-AboutUs {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .content-AboutUs,
+    .content-imgAboutUs {
+        flex: 1 100%; /* Full width on smaller screens */
+        margin: 0; /* Remove margins for better spacing on smaller screens */
+    }
+
+    .title {
+        margin-bottom: 20px; /* Adjusted margin for smaller screens */
+    }
+}
+
+
+/*CONTACT US*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-info form {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button1 {
+    background-color: #ffe100;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button1:hover {
+    background-color:#ccbb25;
+}
+
+.phone-number {
+    margin-top: 20px;
+}
+
+.map {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+	
