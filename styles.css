@@ -14,7 +14,7 @@ html {
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(44, 52, 52, 0.75),rgba(44, 42, 42, 0.75)),url("./images/woodfire.jpeg");
+    background-image: linear-gradient(rgba(44, 52, 52, 0.75),rgba(44, 42, 42, 0.75)),url("./images/stars.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -206,6 +206,18 @@ body {
     font-family: sans-serif;
 }
 
+.section-AboutUs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(18, 18, 18, 0.75)),url("./images/woodfire.jpeg");
+    background-size: 100% 100%; /* Ensure the background covers both width and height */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 50px;
+    height: 100%; /* Set the height to 100% */
+    box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+
 .section-AboutUs h2{
     font-size: 50px;
     position: center;
@@ -221,6 +233,7 @@ body {
     width: 80%;
     margin: 50px auto;
     padding: 20px;
+    
 }
 
 .title {
@@ -242,6 +255,7 @@ body {
     margin-right: 20px;
     overflow: hidden;
     border-radius: 10px;
+    
 }
 
 .image img {
